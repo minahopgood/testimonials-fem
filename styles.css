@@ -13,12 +13,16 @@
   font-family: "Barlow Semi Condensed", serif;
   font-size: 13px;
   font-weight: 500;
-  margin: 1rem;
+}
+
+html {
+  background-color: var(--light-grey-blue);
 }
 
 .profile-pic {
-  width: 2.5rem;
+  width: 3rem;
   border-radius: 100%;
+  object-fit: cover;
 }
 .tagline {
   font-size: 1.5rem;
@@ -28,20 +32,70 @@
   opacity: 50%;
   line-height: 1.5;
 }
-/* .who{
-  display: flex;  
-} */
+
+article {
+  margin: 2rem;
+}
 
 #clifford-testimonial {
+  display: flex;
+  flex-direction: column;
   background-color: var(--purple);
   color: var(--white);
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 1rem;
 }
-#clifford-testimonial > .profile-pic {
+#clifford-testimonial .profile-pic {
   box-shadow: 0rem 0rem 0rem 0.2rem hsl(263, 49%, 58%); /*best I could figure to adjust the border opacity without creating a new :root colour for a single item.*/
 }
+/* *********************** */
+/* what the hell man this is hard */
+.who {
+  display: grid;
+  grid-template-columns: 2rem 2rem 2rem;
+  grid-template-rows: 2rem 2rem;
+  gap: 1rem;
+  /* display: flex;
+  flex-direction: row;
+  line-height: 0;
+  align-items: baselinel
+  justify-content: space-around;
+  text-align: left; */
+}
+.who > .name {
+  grid-area: 1 2 1 1;
+}
+.who > .graduate {
+  grid-area: 1 3 1 1;
+}
+/* *********************** */
+#walters-testimonial {
+  background-color: var(--grey-blue);
+  color: var(--white);
+  padding: 2rem;
+  border-radius: 1rem;
+}
 
+#harmon-testimonial {
+  color: var(--black-blue);
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+#abrams-testimonial {
+  color: var(--light-grey);
+  background-color: var(--black-blue);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+#whittle-testimonial {
+  color: var(--black-blue);
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 1rem;
+}
 /* TODO
 
 1. "Verified Graduate" has the same color as the person's name with 50% opacity
