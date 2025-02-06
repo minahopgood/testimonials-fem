@@ -13,21 +13,32 @@
   font-family: "Barlow Semi Condensed", serif;
   font-size: 13px;
   font-weight: 500;
+  margin: 1rem;
 }
 
 .profile-pic {
   width: 2.5rem;
   border-radius: 100%;
 }
+.tagline {
+  font-size: 1.5rem;
+}
+.quote,
+.graduate {
+  opacity: 50%;
+}
+/* .who{
+  display: flex;  
+} */
 
 #clifford-testimonial {
   background-color: var(--purple);
   color: var(--white);
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 1rem;
 }
 #clifford-testimonial > .profile-pic {
-  border: 0.2rem solid var(--white);
+  box-shadow: 0rem 0rem 0rem 0.2rem hsl(263, 49%, 58%); /*best I could figure to adjust the border opacity without creating a new :root colour for a single item.*/
 }
 
 /* TODO
