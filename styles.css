@@ -15,6 +15,21 @@
   font-weight: 500;
 }
 
+.profile-pic {
+  width: 2.5rem;
+  border-radius: 100%;
+}
+
+#clifford-testimonial {
+  background-color: var(--purple);
+  color: var(--white);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+#clifford-testimonial > .profile-pic {
+  border: 0.2rem solid var(--white);
+}
+
 /* TODO
 
 1. "Verified Graduate" has the same color as the person's name with 50% opacity
