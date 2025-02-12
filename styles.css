@@ -105,6 +105,20 @@ article {
   border-radius: 1rem;
 }
 
+.profile-pic:hover {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: scale(1.33);
+  }
+}
+
 /* Media queries */
 /* phones and smaller screens - column*/
 @media (min-width: 570px) and (max-width: 900px) {
@@ -191,8 +205,8 @@ article {
 
 /* TODO
  
-- start working on media queries for desktop screens and inbetween sizes
 - add hovers (maybe a pulse when you hover over the profile pic? can it be done with css (not js)?
+- add quote marks to clifford-testimonial!!!
 
 
 /
