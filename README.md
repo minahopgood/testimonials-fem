@@ -44,6 +44,5 @@ In this project I tried to complete the challenge as extensively as I could. Cre
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- GitHub - [Mina Hopgood](https://github.com/minahopgood)
+- Frontend Mentor - [@minahop](https://www.frontendmentor.io/profile/minahopgood)
